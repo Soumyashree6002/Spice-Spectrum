@@ -1,0 +1,290 @@
+[
+    {
+        "id":1,
+        "name":"Classic Bruschetta",
+        "price": 150,
+        "img":"item1.jpg"
+    },
+    {
+        "id":2,
+        "name":"Noodles",
+        "price": 150,
+        "img":"item2.jpg"
+    },
+    {
+        "id":3,
+        "name":"Stuffed Mushrooms",
+        "price": 250,
+        "img":"item3.jpg"
+    },
+    {
+        "id":4,
+        "name":"Chicken Wings",
+        "price": 250,
+        "img":"item4.jpg"
+    },
+    {
+        "id":5,
+        "name":"Samosas",
+        "price": 150,
+        "img":"item5.jpg"
+    },
+    {
+        "id":6,
+        "name":"Panner Tikka",
+        "price": 250,
+        "img":"item6.jpg"
+    },
+    {
+        "id":7,
+        "name":"Pakoras",
+        "price": 125,
+        "img":"item7.jpg"
+    },
+    {
+        "id":8,
+        "name":"Dahi Puri",
+        "price": 125,
+        "img":"item8.jpg"
+    },
+    {
+        "id":9,
+        "name":"Spring Rolls",
+        "price": 180,
+        "img":"item9.jpg"
+    },
+    {
+        "id":10,
+        "name":"Garlic Bread",
+        "price": 150,
+        "img":"item10.jpg"
+    },{
+        "id":11,
+        "name":"Dhokla",
+        "price": 150,
+        "img":"item11.jpg"
+    },{
+        "id":12,
+        "name":"Hot and Sour Soup",
+        "price": 150,
+        "img":"item12.jpg"
+    },{
+        "id":13,
+        "name":"Chaat",
+        "price": 160,
+        "img":"item52.webp"
+    },{
+        "id":14,
+        "name":"Bhelpuri",
+        "price": 100,
+        "img":"item53.jpg"
+    },{
+        "id":15,
+        "name":"Butter Chicken",
+        "price": 400,
+        "img":"item13.jpg"
+    },{
+        "id":16,
+        "name":"Chicken Biryani",
+        "price": 500,
+        "img":"item14.jpg"
+    },{
+        "id":17,
+        "name":"Palak Paneer",
+        "price": 350,
+        "img":"item15.webp"
+    },{
+        "id":18,
+        "name":"Dal Makhani",
+        "price": 180,
+        "img":"item16.jpg"
+    },{
+        "id":19,
+        "name":"Lemon Rice",
+        "price": 175,
+        "img":"item28.webp"
+    },{
+        "id":20,
+        "name":"Vegetable Biryani",
+        "price": 400,
+        "img":"item17.jpg"
+    },{
+        "id":21,
+        "name":"Chana Masala",
+        "price": 200,
+        "img":"item18.jpg"
+    },{
+        "id":22,
+        "name":"Paneer Tikka Masala",
+        "price": 350,
+        "img":"item19.jpg"
+    },{
+        "id":23,
+        "name":"Fish Curry",
+        "price": 300,
+        "img":"item20.jpg"
+    },{
+        "id":24,
+        "name":"Aloo Gobi",
+        "price": 250,
+        "img":"item21.jpg"
+    },{
+        "id":25,
+        "name":"Veg Pulao",
+        "price": 250,
+        "img":"item27.jpg"
+    },{
+        "id":26,
+        "name":"Malai Kofta",
+        "price": 250,
+        "img":"item22.jpg"
+    },{
+        "id":27,
+        "name":"Rajma",
+        "price": 200,
+        "img":"item23.jpg"
+    },{
+        "id":28,
+        "name":"Fried Rice",
+        "price": 200,
+        "img":"item29.jpg"
+    },{
+        "id":29,
+        "name":"Sarson Da Saag with Makki Di Roti",
+        "price": 250,
+        "img":"item24.jpg"
+    },{
+        "id":30,
+        "name":"Dahi Bhindi",
+        "price": 200,
+        "img":"item25.jpg"
+    },{
+        "id":31,
+        "name":"Jeera Rice with Dal Tadka",
+        "price": 225,
+        "img":"item26.jpg"
+    },{
+        "id":32,
+        "name":"Chicken Handi",
+        "price": 450,
+        "img":"item30.jpg"
+    },{
+        "id":33,
+        "name":"Chocolate Cake",
+        "price": 600,
+        "img":"item31.jpg"
+    },{
+        "id":34,
+        "name":"Cheesecake",
+        "price": 550,
+        "img":"item32.jpg"
+    },{
+        "id":35,
+        "name":"Icecream",
+        "price": 250,
+        "img":"item33.jpg"
+    },{
+        "id":36,
+        "name":"Molten Lava Cake",
+        "price": 350,
+        "img":"item34.jpg"
+    },{
+        "id":37,
+        "name":"Gajar Halwa",
+        "price": 300,
+        "img":"item35.jpg"
+    },{
+        "id":38,
+        "name":"Kheer",
+        "price": 350,
+        "img":"item36.jpg"
+    },{
+        "id":39,
+        "name":"Jalebi",
+        "price": 180,
+        "img":"item37.webp"
+    },{
+        "id":40,
+        "name":"Barfi",
+        "price": 300,
+        "img":"item38.webp"
+    },
+    {
+        "id":41,
+        "name":"Ladoo",
+        "price": 180,
+        "img":"item39.jpg"
+    },
+    {
+        "id":42,
+        "name":"Malai Kulfi",
+        "price": 250,
+        "img":"item40.webp"
+    },
+    {
+        "id":43,
+        "name":"Mysore Pak",
+        "price": 200,
+        "img":"item41.jpg"
+    },
+    {
+        "id":44,
+        "name":"Iced Tea",
+        "price": 100,
+        "img":"item42.jpg"
+    },
+    {
+        "id":45,
+        "name":"Lemonade",
+        "price": 90,
+        "img":"item43.jpg"
+    },
+    {
+        "id":46,
+        "name":"Fresh Juices",
+        "price": 200,
+        "img":"item44.jpg"
+    },
+    {
+        "id":47,
+        "name":"Mocktails",
+        "price": 175,
+        "img":"item45.jpg"
+    },
+    {
+        "id":48,
+        "name":"Coffee",
+        "price": 100,
+        "img":"item46.jpg"
+    },
+    {
+        "id":49,
+        "name":"Tea",
+        "price": 80,
+        "img":"item47.jpg"
+    },
+    {
+        "id":50,
+        "name":"Milkshakes and Smoothies",
+        "price": 150,
+        "img":"item48.jpg"
+    },
+    {
+        "id":51,
+        "name":"Hot Chocolate",
+        "price": 200,
+        "img":"item49.jpg"
+    },
+    {
+        "id":52,
+        "name":"Lassi",
+        "price": 150,
+        "img":"item50.jpg"
+    },
+    {
+        "id":53,
+        "name":"Sugarcane Juice",
+        "price": 60,
+        "img":"item51.jpg"
+    }
+]

@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spice Spectrum</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Rubik+Maps&display=swap" rel="stylesheet">
+</head>
+
+<body class="">
+  <nav>
+    <div id="logo">
+      <img src="logo.jpg" alt="logo">
+    </div>
+    <span class="material-symbols-outlined" id="menuIcon">
+      menu
+    </span>
+    <div class="navItems">
+      <ul class="navItems1 navItems2">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#aboutUs">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="icons">
+      <span class="material-symbols-outlined">
+        favorite
+      </span>
+      <span class="material-symbols-outlined">
+        person
+      </span>
+      <a href="#" id="newPage">
+        <span class="material-symbols-outlined">
+          shopping_cart
+        </span>
+      </a>
+      <span class="itemCount">0</span>
+    </div>
+  </nav>
+  <section class="cartTab">
+    <h2>
+      Shopping Cart
+    </h2>
+    <button class="close">
+      <span class="material-symbols-outlined">
+        close
+      </span>
+    </button>
+    <div class="shopNow">
+      <a href="#menu">
+        <button class="shopCart">
+          Shop Now
+        </button>
+      </a>
+    </div>
+    <div class="labels">
+      <div>
+        Item
+      </div>
+      <div>
+        Price
+      </div>
+      <div>
+        Quantity
+      </div>
+      <div>
+        Subtotal
+      </div>
+    </div>
+    <div class="itemContainer">
+
+    </div>
+    <div class="totalPrice">
+
+    </div>
+    <button class="checkOut">
+      CheckOut
+    </button>
+  </section>
+  <section class="home flex" id="home">
+    <div class="homeTitle">
+      <h1 class="restaurantName">
+        Spice Spectrum
+      </h1>
+      <div class="homeSubtitle">
+        Embark on a Culinary Adventure where Every Dish is a Tale, Every Flavor is an Expression, and Every Moment is a
+        Celebration of Exceptional Taste and Timeless Traditions.
+      </div>
+      <div class="button">
+        <a href="#menu" id="btn"><span class="material-symbols-outlined">
+            restaurant_menu
+          </span>Discover Our Flavors</a>
+      </div>
+    </div>
+    <div class="images">
+      <div class="image1">
+        <img src="img1.jpg" alt="image1">
+      </div>
+      <div class="image2">
+        <img src="img2.jpg" alt="image2">
+      </div>
+      <div class="image3">
+        <img src="img3.jpg" alt="image3">
+      </div>
+      <div class="image4">
+        <img src="img4.jpg" alt="image4">
+      </div>
+      <div class="image5">
+        <img src="img5.jpg" alt="image5">
+      </div>
+    </div>
+  </section>
+  <section id="menu">
+    <div class="headings">
+      <h2>
+        The flavors of Spice Spectrum
+      </h2>
+      <div class="subtitle">
+        Peruse our menu and immerse yourself in a symphony of tastes, expertly composed to bring joy and satisfaction to
+        every dining moment...
+      </div>
+    </div>
+    <div class="starters">
+      <div class="miniheading">
+        <h3>
+          Appetizing Beginnings
+        </h3>
+        <div class="minititle">
+          Indulge in our delectable starters to kickstart your culinary journey.
+        </div>
+      </div>
+      <div class="container">
+        <div class="card">
+          <img src="item1.jpg" alt="item1">
+          <div class="itemName">Classic Bruschetta</div>
+          <div class="price">₹150</div>
+          <div class="description">
+            Toasted bread topped with diced tomatoes, garlic, basil, and olive oil.
+          </div>
+          <button class="addToCart addsToCart" id="1">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item2.jpg" alt="item2">
+          <div class="itemName">Noodles</div>
+          <div class="price">₹150</div>
+          <div class="description">
+            Delight in a crunchy nest of golden-fried noodles, served with a medley of colorful vegetables and a
+            tantalizing sweet and savory sauce.
+          </div>
+          <button class="addToCart addsToCart" id="2">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item3.jpg" alt="item3">
+          <div class="itemName">Stuffed Mushrooms:</div>
+          <div class="price">₹250</div>
+          <div class="description">
+            Mushrooms filled with a savory mixture of breadcrumbs, herbs, and cheese.
+          </div>
+          <button class="addToCart addsToCart" id="3">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item4.jpg" alt="item4">
+          <div class="itemName">Chicken Wings</div>
+          <div class="price">₹250</div>
+          <div class="description">
+            Crispy chicken wings tossed in various sauces like buffalo, barbecue, or honey garlic
+          </div>
+          <button class="addToCart addsToCart" id="4">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item5.jpg" alt="item5">
+          <div class="itemName">Samosas</div>
+          <div class="price">₹150</div>
+          <div class="description">
+            Triangular pastry filled with spiced potatoes, peas, and sometimes meat, deep-fried until crispy.
+          </div>
+          <button class="addToCart addsToCart" id="5">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item6.jpg" alt="item6">
+          <div class="itemName">Paneer Tikka</div>
+          <div class="price">₹250</div>
+          <div class="description">
+            Cubes of marinated paneer (Indian cottage cheese) skewered and grilled or baked.
+          </div>
+          <button class="addToCart addsToCart" id="6">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item7.jpg" alt="item7">
+          <div class="itemName">Pakoras</div>
+          <div class="price">₹125</div>
+          <div class="description">
+            Vegetables (such as onion, potato, or spinach) coated in spiced chickpea flour batter and deep-fried.
+          </div>
+          <button class="addToCart addsToCart" id="7">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item8.jpg" alt="item8">
+          <div class="itemName">Dahi Puri</div>
+          <div class="price">₹125</div>
+          <div class="description">
+            Hollow puris filled with a mixture of spiced yogurt, tamarind chutney, and mashed potatoes.
+          </div>
+          <button class="addToCart addsToCart" id="8">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item9.jpg" alt="item9">
+          <div class="itemName">Spring Rolls</div>
+          <div class="price">₹180</div>
+          <div class="description">
+            Thin rolls filled with vegetables, sometimes with meat or shrimp, and deep-fried until crispy.
+          </div>
+          <button class="addToCart addsToCart" id="9">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item10.jpg" alt="item10">
+          <div class="itemName">Garlic Bread</div>
+          <div class="price">₹150</div>
+          <div class="description">
+            Sliced bread brushed with garlic butter and toasted until golden brown.
+          </div>
+          <button class="addToCart addsToCart" id="10">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item11.jpg" alt="item11">
+          <div class="itemName">Dhokla</div>
+          <div class="price">₹150</div>
+          <div class="description">
+            Steamed and fermented cake made from rice and chickpea flour, often served with chutney.
+          </div>
+          <button class="addToCart addsToCart" id="11">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item12.jpg" alt="item12">
+          <div class="itemName">Hot and Sour Soup</div>
+          <div class="price">₹150</div>
+          <div class="description">
+            A flavorful soup with a combination of spicy and tangy notes, usually containing tofu, mushrooms, and bamboo
+            shoots.
+          </div>
+          <button class="addToCart addsToCart" id="12">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item52.webp" alt="item52">
+          <div class="itemName">Chaat</div>
+          <div class="price">₹160</div>
+          <div class="description">
+            street food medley of crispy fried dough, potatoes, chickpeas, and a symphony of chutneys, creating a burst
+            of sweet, tangy, and spicy notes.
+          </div>
+          <button class="addToCart addsToCart" id="13">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item53.jpg" alt="item53">
+          <div class="itemName">Bhelpuri</div>
+          <div class="price">₹100</div>
+          <div class="description">
+            snack featuring puffed rice, crisp sev, diced vegetables, and a harmonious blend of chutneys
+          </div>
+          <button class="addToCart addsToCart" id="14">Add To Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="mainCourse">
+      <div class="miniheading">
+        <h3>
+          Gastronomic Delights
+        </h3>
+        <div class="minititle">
+          Savor Every Bite: A Symphony of Flavors Awaits in Our Main Course Selection
+        </div>
+      </div>
+      <div class="container">
+        <div class="card">
+          <img src="item13.jpg" alt="item13">
+          <div class="itemName">Butter Chicken</div>
+          <div class="price">₹400</div>
+          <div class="description">
+            Tandoori-grilled chicken in a creamy tomato-based sauce with a rich blend of spices.
+          </div>
+          <button class="addToCart addsToCart" id="15">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item14.jpg" alt="item14">
+          <div class="itemName">Chicken Biryani</div>
+          <div class="price">₹500</div>
+          <div class="description">
+            Fragrant basmati rice layered with spiced chicken, caramelized onions, and aromatic spices.
+          </div>
+          <button class="addToCart addsToCart" id="16">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item15.webp" alt="item15">
+          <div class="itemName">Palak Paneer</div>
+          <div class="price">₹350</div>
+          <div class="description">
+            Soft paneer cubes in a vibrant spinach gravy, infused with Indian spices.
+          </div>
+          <button class="addToCart addsToCart" id="17">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item16.jpg" alt="item16">
+          <div class="itemName">Dal Makhani</div>
+          <div class="price">₹180</div>
+          <div class="description">
+            Creamy black lentils and kidney beans slow-cooked with spices and finished with butter.
+          </div>
+          <button class="addToCart addsToCart" id="18">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item28.webp" alt="item28">
+          <div class="itemName">Lemon Rice</div>
+          <div class="price">₹175</div>
+          <div class="description">
+            Cooked basmati rice tossed with a tempering of mustard seeds, urad dal, curry leaves, and lemon juice,
+            creating a zesty and flavorful dish.
+          </div>
+          <button class="addToCart addsToCart" id="19">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item17.jpg" alt="item17">
+          <div class="itemName">Vegetable Biryani</div>
+          <div class="price">₹400</div>
+          <div class="description">
+            Fragrant basmati rice combined with mixed vegetables, herbs, and spices.
+          </div>
+          <button class="addToCart addsToCart" id="20">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item18.jpg" alt="item18">
+          <div class="itemName">Chana Masala</div>
+          <div class="price">₹200</div>
+          <div class="description">
+            Chickpeas cooked in a flavorful tomato-based curry with a blend of spices.
+          </div>
+          <button class="addToCart addsToCart" id="21">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item19.jpg" alt="item19">
+          <div class="itemName">Paneer Tikka Masala</div>
+          <div class="price">₹350</div>
+          <div class="description">
+            Grilled paneer cubes in a creamy and spiced tomato-based sauce.
+          </div>
+          <button class="addToCart addsToCart" id="22">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item20.jpg" alt="item20">
+          <div class="itemName">Fish Curry</div>
+          <div class="price">₹300</div>
+          <div class="description">
+            Fish fillets cooked in a tangy and spiced curry sauce, typical of coastal Indian cuisine.
+          </div>
+          <button class="addToCart addsToCart" id="23">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item21.jpg" alt="item21">
+          <div class="itemName">Aloo Gobi</div>
+          <div class="price">₹250</div>
+          <div class="description">
+            Potatoes and cauliflower cooked with cumin, turmeric, and other aromatic spices.
+          </div>
+          <button class="addToCart addsToCart" id="24">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item27.jpg" alt="item27">
+          <div class="itemName">Veg Pulao</div>
+          <div class="price">₹250</div>
+          <div class="description">
+            Fragrant rice cooked with vegetable dumplings, creating a flavorful one-pot dish.
+          </div>
+          <button class="addToCart addsToCart" id="25">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item22.jpg" alt="item22">
+          <div class="itemName">Malai Kofta</div>
+          <div class="price">₹250</div>
+          <div class="description">
+            Deep-fried vegetable or paneer dumplings served in a rich and creamy tomato-based curry.
+          </div>
+          <button class="addToCart addsToCart" id="26">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item23.jpg" alt="item23">
+          <div class="itemName">Rajma</div>
+          <div class="price">₹200</div>
+          <div class="description">
+            Red kidney beans cooked in a thick and flavorful tomato-based curry.
+          </div>
+          <button class="addToCart addsToCart" id="27">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item29.jpg" alt="item26">
+          <div class="itemName">Fried Rice</div>
+          <div class="price">₹200</div>
+          <div class="description">
+            Indian-style fried rice typically includes basmati rice stir-fried with vegetables, eggs, and a mix of
+            spices.
+          </div>
+          <button class="addToCart addsToCart" id="28">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item24.jpg" alt="item24">
+          <div class="itemName">Sarson Da Saag with Makki Di Roti</div>
+          <div class="price">₹250</div>
+          <div class="description">
+            Punjabi dish featuring mustard greens served with cornmeal flatbread.
+          </div>
+          <button class="addToCart addsToCart" id="29">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item25.jpg" alt="item25">
+          <div class="itemName">Dahi Bhindi</div>
+          <div class="price">₹200</div>
+          <div class="description">
+            Okra (bhindi) cooked in a spiced yogurt-based curry, offering a tangy twist.
+          </div>
+          <button class="addToCart addsToCart" id="30">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item26.jpg" alt="item26">
+          <div class="itemName">Jeera Rice with Dal Tadka</div>
+          <div class="price">₹225</div>
+          <div class="description">
+            Fragrant cumin-infused rice served with yellow lentils tempered with spices.
+          </div>
+          <button class="addToCart addsToCart" id="31">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item30.jpg" alt="item30">
+          <div class="itemName">Chicken Handi</div>
+          <div class="price">₹450</div>
+          <div class="description">
+            Chicken cooked in a handi (clay pot) with a rich and aromatic tomato-based gravy.
+          </div>
+          <button class="addToCart addsToCart" id="32">Add To Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="deserts">
+      <div class="miniheading">
+        <h3>
+          Sweet Temptations
+        </h3>
+        <div class="minititle">
+          A Symphony of Sweet Endings:Elevate Your Culinary Experience with Our Delectable Dessert Creations
+        </div>
+      </div>
+      <div class="container">
+        <div class="card">
+          <img src="item31.jpg" alt="item31">
+          <div class="itemName">Chocolate Cake</div>
+          <div class="price">₹600</div>
+          <div class="description">
+            moist layers filled with rich, velvety chocolate ganache
+          </div>
+          <button class="addToCart addsToCart" id="33">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item32.jpg" alt="item32">
+          <div class="itemName">Cheesecake</div>
+          <div class="price">₹550</div>
+          <div class="description">
+            a smooth,rich cream cheese on a buttery graham cracker crust, topped with your choice of fruit compote or
+            chocolate.
+          </div>
+          <button class="addToCart addsToCart" id="34">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item33.jpg" alt="item33">
+          <div class="itemName">Icecream</div>
+          <div class="price">₹250</div>
+          <div class="description">
+            Offer a selection of flavors, including classics like vanilla, chocolate, and strawberry, as well as unique
+            options.
+          </div>
+          <button class="addToCart addsToCart" id="35">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item34.jpg" alt="item34">
+          <div class="itemName">Molten Lava Cake</div>
+          <div class="price">₹350</div>
+          <div class="description">
+            A warm chocolate cake with a gooey, molten center.
+          </div>
+          <button class="addToCart addsToCart" id="36">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item35.jpg" alt="item35">
+          <div class="itemName">Gajar Halwa</div>
+          <div class="price">₹300</div>
+          <div class="description">
+            A sweet and rich carrot pudding made by cooking grated carrots with milk, sugar, and ghee.
+          </div>
+          <button class="addToCart addsToCart" id="37">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item36.jpg" alt="item36">
+          <div class="itemName">Kheer</div>
+          <div class="price">₹350</div>
+          <div class="description">
+            Rice pudding made with milk, rice, and sugar, often flavored with cardamom and garnished with nuts.
+          </div>
+          <button class="addToCart addsToCart" id="38">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item37.webp" alt="item37">
+          <div class="itemName">Jalebi</div>
+          <div class="price">₹180</div>
+          <div class="description">
+            Deep-fried spiral-shaped batter soaked in saffron-infused sugar syrup.
+          </div>
+          <button class="addToCart addsToCart" id="39">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item38.webp" alt="item38">
+          <div class="itemName">Barfi</div>
+          <div class="price">₹300</div>
+          <div class="description">
+            Sweet fudge-like squares made from condensed milk, sugar, and various flavorings like cardamom or
+            pistachios.
+          </div>
+          <button class="addToCart addsToCart" id="40">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item39.jpg" alt="item39">
+          <div class="itemName">Ladoo</div>
+          <div class="price">₹180</div>
+          <div class="description">
+            Round sweet balls made from ingredients like chickpea flour (besan), semolina (sooji), or grated coconut.
+          </div>
+          <button class="addToCart addsToCart" id="41">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item40.webp" alt="item13">
+          <div class="itemName">Malai Kulfi</div>
+          <div class="price">₹250</div>
+          <div class="description">
+            Creamy and dense frozen dessert, similar to ice cream, flavored with cardamom, saffron, or pistachios.
+          </div>
+          <button class="addToCart addsToCart" id="42">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item41.jpg" alt="item41">
+          <div class="itemName">Mysore Pak</div>
+          <div class="price">₹200</div>
+          <div class="description">
+            A traditional South Indian sweet made from gram flour, ghee, and sugar, with a melt-in-the-mouth texture.
+          </div>
+          <button class="addToCart addsToCart" id="43">Add To Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="beverages">
+      <div class="miniheading">
+        <h3>
+          Liquid Harmony
+        </h3>
+        <div class="minititle">
+          Sip, Savor, and Celebrate: Discover Our Captivating Collection of Beverages.
+        </div>
+      </div>
+      <div class="container">
+        <div class="card">
+          <img src="item42.jpg" alt="item42">
+          <div class="itemName">Iced Tea</div>
+          <div class="price">₹100</div>
+          <div class="description">
+            a cool symphony of refreshing black or green tea, served over ice providing revitalizing escape from the
+            heat
+          </div>
+          <button class="addToCart addsToCart" id="44">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item43.jpg" alt="item43">
+          <div class="itemName">Lemonade</div>
+          <div class="price">₹90</div>
+          <div class="description">
+            a zesty elixir crafted from the pure essence of sun-kissed lemons, offering a sweet-tart harmony in every
+            sip
+          </div>
+          <button class="addToCart addsToCart" id="45">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item44.jpg" alt="item44">
+          <div class="itemName">Fresh Juices</div>
+          <div class="price">₹200</div>
+          <div class="description">
+            Orange, apple, grapefruit, cranberry, and more.
+          </div>
+          <button class="addToCart addsToCart" id="46">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item45.jpg" alt="item">
+          <div class="itemName">Mocktails</div>
+          <div class="price">₹175</div>
+          <div class="description">
+            Non-alcoholic cocktails with creative and refreshing blends.
+          </div>
+          <button class="addToCart addsToCart" id="47">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item46.jpg" alt="item46">
+          <div class="itemName">Coffee</div>
+          <div class="price">₹100</div>
+          <div class="description">
+            Regular and decaffeinated, with various brewing methods.
+          </div>
+          <button class="addToCart addsToCart" id="48">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item47.jpg" alt="item47">
+          <div class="itemName">Tea</div>
+          <div class="price">₹80</div>
+          <div class="description">
+            A selection of high-quality teas, including black, green, herbal, and specialty blends.
+          </div>
+          <button class="addToCart addsToCart" id="49">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item48.jpg" alt="item48">
+          <div class="itemName">Milkshakes and Smoothies</div>
+          <div class="price">₹150</div>
+          <div class="description">
+            Fruit-based or creamy options
+          </div>
+          <button class="addToCart addsToCart" id="50">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item49.jpg" alt="item49">
+          <div class="itemName">Hot Chocolate</div>
+          <div class="price">₹200</div>
+          <div class="description">
+            a velvety indulgence that wraps you in warmth, each sip a decadent journey through rich, melted cocoa and
+            creamy bliss.
+          </div>
+          <button class="addToCart addsToCart" id="51">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item50.jpg" alt="item">
+          <div class="itemName">Lassi</div>
+          <div class="price">₹150</div>
+          <div class="description">
+            A traditional yogurt-based drink available in sweet or savory variations.
+          </div>
+          <button class="addToCart addsToCart" id="52">Add To Cart</button>
+        </div>
+        <div class="card">
+          <img src="item51.jpg" alt="item">
+          <div class="itemName">Sugarcane Juice</div>
+          <div class="price">₹60</div>
+          <div class="description">
+            Freshly pressed juice extracted from sugarcane, often served with a touch of lime or ginger for added
+            flavor.
+          </div>
+          <button class="addToCart addsToCart" id="53">Add To Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="aboutUs">
+    <div class="headings">
+      <h2>
+        Our Culinary Story
+      </h2>
+      <div class="subtitle">
+        Crafting Memorable Moments Through Authentic Flavors and Passionate Hospitality
+      </div>
+    </div>
+    <div class="history">
+      <div class="owner">
+        <img src="chef1.webp" alt="chef1">
+      </div>
+      <div class="text">
+        <div>
+          Spice Spectrum was established in 2010 by the visionary chef, Isabella Moonstone. Isabella, a culinary maestro
+          with a passion for combining flavors and a love for magic, wanted to create a dining experience that
+          transcended the ordinary. She envisioned a place where food not only delighted the taste buds but also sparked
+          the imagination. She transformed an old spice warehouse in the heart of a bustling city into Spice Spectrum, a
+          culinary haven for food enthusiasts and spice aficionados.
+        </div>
+        <div>
+          The warehouse itself had a rich history as a hub for trading exotic spices from distant lands. Isabella,
+          inspired by the legacy of the space, decided to maintain its original structure while infusing it with a
+          modern and vibrant atmosphere.
+        </div>
+      </div>
+    </div>
+    <div class="chefs">
+      <h3>
+        Our Chefs
+      </h3>
+      <div>
+        Isabella Moonstone is not the only chef at Enchanted Eats; she has gathered a team of talented and diverse
+        culinary experts to bring her vision to life.
+      </div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <div class="chefBox">
+        <img src="chef2.jpg" alt="chef">
+        <div class="chefInfo">
+          <div class="chefName">
+            <h3>
+              Chef Ananya Mehra - Tandoor Specialist:
+            </h3>
+          </div>
+          <div class="chefDescription">
+            Ananya is renowned for her mastery of the tandoor, a traditional clay oven used in Indian cooking. With
+            years
+            of experience, she imparts a perfect smoky flavor to various dishes, from succulent kebabs to fluffy naan
+            bread. Ananya's attention to detail and ability to balance spices make her tandoor creations unforgettable.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <div class="chefBox">
+        <img src="chef3.jpg" alt="chef">
+        <div class="chefInfo">
+          <div class="chefName">
+            <h3>
+              Chef Arjun Kapoor - Spice Alchemist:
+            </h3>
+          </div>
+          <div class="chefDescription">
+            Arjun is known for his ability to balance and blend spices, creating harmonious and nuanced flavors in every
+            dish. Whether it's a biryani, masala dosa, or a simple dal, Arjun's meticulous approach to spice
+            combinations
+            elevates each dish to a culinary masterpiece.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <div class="chefBox">
+        <img src="chef4.jpg" alt="chef">
+        <div class="chefInfo">
+          <div class="chefName">
+            <h3>
+              Chef Vikram Singh - Curry Maestro:
+            </h3>
+          </div>
+          <div class="chefDescription">
+            Vikram is the go-to person for curries in the restaurant. His rich and aromatic curry creations showcase a
+            deep understanding of spice combinations and regional variations. From creamy butter chicken to spicy
+            vindaloo, Vikram's curries transport diners on a culinary journey across India.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <div class="chefBox">
+        <img src="chef5.jpg" alt="chef">
+        <div class="chefInfo">
+          <div class="chefName">
+            <h3>
+              Chef Ayesha Patel - Street Food Innovator:
+            </h3>
+          </div>
+          <div class="chefDescription">
+            Ayesha specializes in bringing the vibrant flavors of Indian street food to the restaurant's menu. With a
+            creative twist, she turns classics like chaat, bhel puri, and pani puri into sophisticated yet authentic
+            dishes that capture the essence of Indian street culinary culture.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 5</div>
+      <div class="chefBox">
+        <img src="chef6.jpg" alt="chef">
+        <div class="chefInfo">
+          <div class="chefName">
+            <h3>
+              Chef Raj Malhotra - Dessert Artisan:
+            </h3>
+          </div>
+          <div class="chefDescription">
+            Raj is the genius behind the restaurant's delectable dessert offerings. His fusion of traditional Indian
+            sweets with modern techniques results in mouthwatering treats. From Gulab Jamun cheesecake to
+            saffron-infused
+            ice cream, Raj's desserts are the perfect sweet ending to a flavorful meal.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a class="prev">&lt</a>
+    <a class="next">&gt</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </section>
+  <footer id="contact">
+    <div class="footer">
+      <div>
+        <div class="hours">
+          Operating Hours: 8am to 12pm
+        </div>
+        <h4>
+          Connect With Us
+        </h4>
+        <span>
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="facebook.png" alt="facebook">
+          </a>
+        </span>
+        <span>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="instagram.png" alt="instagram">
+          </a>
+        </span>
+        <span>
+          <a href="https://www.linkedin.com/feed/" target="_blank">
+            <img src="linkedin.png" alt="linkedin">
+          </a>
+        </span>
+      </div>
+      <div class="listing">
+        <h4>
+          About
+        </h4>
+        <ul>
+          <li>
+            About Us
+          </li>
+          <li>
+            Blog
+          </li>
+          <li>
+            Community
+          </li>
+        </ul>
+      </div>
+      <div class="listing">
+        <h4>
+          Support
+        </h4>
+        <ul>
+          <li>
+            Help & Support
+          </li>
+          <li>
+            Terms And Conditions
+          </li>
+          <li>
+            Privacy Policy
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h4>
+          Contact
+        </h4>
+        <div>
+          <span class="material-symbols-outlined">
+            call
+          </span>
+          <span>
+            <ul>
+              <li>
+                +91-844-355-978
+              </li>
+              <li>
+                +91-579-465-123
+              </li>
+            </ul>
+          </span>
+        </div>
+        <div>
+          <span class="material-symbols-outlined">
+            mail
+          </span>
+          <span>
+            spicespectrum@email.com
+          </span>
+        </div>
+        <div>
+          <span class="material-symbols-outlined">
+            location_on
+          </span>
+          <span>
+            Connaught Place,New Delhi
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="backToTop">
+      <a href="#home">
+        ^Back To Top
+      </a>
+    </div>
+    <div class="copyright">
+      Copyright&copy All Rights Reserved
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>

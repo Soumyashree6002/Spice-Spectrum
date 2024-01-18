@@ -1,0 +1,754 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: inter;
+}
+
+/* navbar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(159, 244, 33);
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+}
+
+#logo img{
+  height: 30px;
+}
+
+#menuIcon {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+.navItems ul li {
+  padding: 10px;
+}
+
+.navItems ul li a {
+  text-decoration: none;
+  color: black;
+} 
+
+.icons {
+  cursor: pointer;
+}
+
+#newPage {
+  text-decoration: none;
+  color: black;
+}
+
+.itemCount {
+  display: inline-block;
+  height: 17px;
+  width: 17px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  right: 5px;
+}
+/* home */
+
+.home {
+  display: flex;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.homeTitle {
+  flex: 1;
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: column;
+  height: 93vh;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.restaurantName {
+  color: rgb(56, 32, 1);
+  font-family: Rubik Maps;
+  padding-top: 20vh;
+  font-size: 70px;
+}
+
+.homeSubtitle {
+  font-size: xx-large;
+}
+
+#btn {
+  text-decoration: none;
+  display: flex;
+  height: 7vh;
+  width: 25vh;
+  color: blueviolet;
+  border: 2px solid blueviolet;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn:hover {
+  color: white;
+  background-color: blueviolet;
+  transition: 0.5s;
+}
+
+.images {
+  flex: 1;
+}
+
+.images img {
+  width: 100%;
+}
+
+.image1 img {
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  width: 50%;
+  height: 93vh;
+  animation-name: image1;
+  animation-duration: 30s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.image2 img {
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  width: 50%;
+  height: 93vh;
+  animation-name: image2;
+  animation-duration: 30s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.image3 img {
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  width: 50%;
+  height: 93vh;
+  animation-name: image3;
+  animation-duration: 30s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.image4 img {
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  width: 50%;
+  height: 93vh;
+  animation-name: image4;
+  animation-duration: 30s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.image5 img {
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  width: 50%;
+  height: 93vh;
+  animation-name: image5;
+  animation-duration: 30s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes image1 {
+  0% {opacity: 0;}
+  10% {opacity: 1;}
+  20% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+@keyframes image2 {
+  0% {opacity: 0;}
+  20% {opacity: 0;}
+  30% {opacity: 1;}
+  40% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+@keyframes image3 {
+  0% {opacity: 0;}
+  40% {opacity: 0;}
+  50% {opacity: 1;}
+  60% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+@keyframes image4 {
+  0% {opacity: 0;}
+  60% {opacity: 0;}
+  70% {opacity: 1;}
+  80% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+@keyframes image5 {
+  0% {opacity: 0;}
+  80% {opacity: 0;}
+  90% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+/* for menu */
+
+h2 {
+  font-size: xx-large;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: blue;
+}
+
+.subtitle {
+  font-size: larger;
+}
+
+.miniheading {
+  padding: 30px 0px;
+}
+
+h3 {
+  color: purple;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.card img {
+  height: 225px;
+  width: 100%;
+  border-radius: 5%;
+  object-fit: cover;
+}
+
+.card {
+  border: 3px solid blueviolet;
+  border-radius: 4%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 400px;
+}
+
+.itemName {
+  background-color: rgb(15, 1, 107);
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin: 5px 0px;
+  border-radius: 5%;
+}
+
+.price {
+  background-color: lavender;
+  padding: 7px;
+  margin: 3px 0px;
+}
+
+.addToCart {
+  background-color: red;
+  color: white;
+  position: absolute;
+  right: 0px;
+  bottom: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.addedToCart {
+  background-color: green;
+  color: white;
+  position: absolute;
+  right: 0px;
+  bottom: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+/* about us */
+
+.history {
+  display: flex;
+}
+
+.owner img {
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.text {
+  margin: 30px 10px 0 10px;
+}
+
+.mySlides {
+  margin: 5vh 10vw;
+  background-color: chartreuse;
+  border: 2px solid chocolate;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.chefBox {
+  display: flex;
+}
+
+.chefBox img {
+  height: 400px;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.chefName {
+  padding: 10px;
+}
+
+.chefDescription {
+  padding: 120px 10px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(0, 0, 0);
+  background-color: cadetblue;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+  position: relative;
+  bottom: 250px;
+  left: 5vw;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: relative;
+  left: 88vw;
+  bottom: 35vh;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+/* footer */
+
+.footer span img {
+  height: 30px;
+  width: 30px;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: black;
+  color: white;
+  padding: 30px 30px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 40px 0px 60px 0px;
+}
+
+.listing ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.listing ul li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.footer div span ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.hours {
+  margin-bottom: 20px;
+}
+
+.backToTop {
+  text-align: right;
+}
+
+.backToTop a {
+  text-decoration: none;
+  color: white;
+}
+
+.copyright {
+  text-align: center;
+}
+
+/* for cart */
+
+.cartTab {
+  width: 100vw;
+  background-color: #d0d0d0;
+  position: fixed;
+  inset: 20px -100vw 0 auto;
+  transition: .5s;
+  z-index: 2;
+  overflow: auto;
+}
+
+.cartTab::-webkit-scrollbar {
+  width: 0px;
+}
+
+body.showCart .cartTab {
+  inset: 20px 0 0 auto;
+}
+
+.cartTab h2 {
+  margin: 30px;
+}
+
+.close{
+  background-color: red;
+  color: white;
+  height: 25px;
+  width: 25px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 30px;
+  right: 15px;
+}
+
+.cartTab .itemContainer .itemCart {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  text-align: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.cartTab .itemContainer .itemCart img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
+
+.minus , .plus {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.minus {
+  margin-right: 20px;
+}
+
+.plus {
+  margin-left: 20px;
+}
+
+#delete {
+  cursor: pointer;
+}
+
+.shopNow {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.shopNow a button {
+  height: 40px;
+  width: 100px;
+  margin-top: 15px;
+  background-color: cornflowerblue;
+  cursor: pointer;
+  font-size: large;
+}
+
+.cartTab .labels {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  text-align: center;
+  margin: 15px 0 15px 0;
+}
+
+.totalPrice {
+  text-align: right;
+  margin: 20px 25vw 10px 0px;
+  border-top: 2px solid black;
+}
+
+.checkOut {
+  background-color: darksalmon;
+  margin: 20px;
+  height: 40px;
+  width: 100px;
+  font-size: large;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 16px;
+    overflow-x: hidden;
+  }
+
+  nav {
+    position: sticky;
+    top: 0px;
+  }
+
+  .home {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #home {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .restaurantName {
+    padding: 0; /* Set to 0 for no padding, or adjust accordingly */
+    font-size: larger;
+  }
+
+  .homeTitle {
+    height: 40vh; /* Adjust to your preference */
+  }
+
+  .homeSubtitle {
+    font-size: large;
+  }
+
+  #btn {
+    height: auto;
+    width: 90%;
+  }
+
+  .image1 img,
+  .image2 img,
+  .image3 img,
+  .image4 img,
+  .image5 img {
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .history {
+    flex-direction: column;
+  }
+
+  .owner img {
+    width: 100%;
+    height: auto; 
+  }
+
+  .text {
+    margin: auto;
+  }
+
+  .mySlides {
+    margin: auto;
+  }
+
+  .prev {
+    position: relative;
+    right: 10px;
+    bottom: 330px;
+    left: -1px;
+  }
+
+  .next {
+    position: relative;
+    bottom: 27vh;
+  }
+
+  .chefBox {
+    flex-direction: column;
+  }
+
+  .chefDescription {
+    padding: 0;
+  }
+
+  .listing ul li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #menuIcon {
+    display: inline-block;
+    position: relative;
+    right: 80px;
+  }
+
+  /* .navItems ul {
+    position: fixed;
+    top: auto;
+    left: -100%;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #424242;
+    color: white;
+    transition: 0.5s;
+  } */
+
+  .navItems ul li {
+    display: block;
+    color: white;
+  }
+
+  .navItems2 {
+    position: fixed;
+    top: auto;
+    left: -100%;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #424242;
+    color: white;
+    transition: 0.5s;
+  }
+
+  .navItems3 {
+    display: block;
+    position: fixed;
+    top: 30px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #fffd88;
+    transition: 0.5s;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1200px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  .prev {
+    position: relative;
+    bottom: 275px;
+  }
+
+  .next {
+    position: relative;
+    bottom: 25vh;
+  }
+}
